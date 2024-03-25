@@ -104,7 +104,9 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
+
     serializedVersion: 3
+
     agentTypeID: 0
     agentRadius: 0.5
     agentHeight: 2
@@ -117,12 +119,15 @@ NavMeshSettings:
     cellSize: 0.16666667
     manualTileSize: 0
     tileSize: 256
+
     buildHeightMesh: 0
+
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+
 --- !u!1 &229841142
 GameObject:
   m_ObjectHideFlags: 0
@@ -154,6 +159,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -194,6 +200,7 @@ Camera:
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
+
   m_Iso: 200
   m_ShutterSpeed: 0.005
   m_Aperture: 16
@@ -205,6 +212,7 @@ Camera:
   m_Anamorphism: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
+
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
@@ -238,6 +246,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
+
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -252,3 +261,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 229841143}
+
